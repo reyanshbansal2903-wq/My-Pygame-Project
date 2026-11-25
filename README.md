@@ -1,64 +1,89 @@
-# 🎮 My Pygame Project
+# 🐍 Snake Game
 
-A 2D game developed using Python and Pygame.
+A classic 2D Snake Arcade Game built using **Python** and **Pygame**.
 
-## About the Game
+Navigate the snake using the arrow keys, eat food to grow longer, and avoid colliding with yourself!
 
-This project is a 2D game created using Python and the Pygame library.
+## 🎮 About the Game
 
-## Features
+Snake Game is a classic arcade-style game where the player controls a snake that moves around the screen.
 
-- 2D gameplay
-- Keyboard controls
-- Game graphics and assets
-- Interactive gameplay
+The objective is to collect food, increase your score, and survive as long as possible without hitting the walls or your own body.
 
-## Technologies Used
+## ✨ Features
+
+- 🐍 Classic Snake gameplay
+- 🎯 Score tracking
+- ⌨️ Simple arrow-key controls
+- 🍎 Food collection and snake growth
+- 💥 Game-over detection
+- 🎮 Interactive 2D gameplay
+
+## 🕹️ Controls
+
+| Key | Action |
+|---|---|
+| ⬆️ Up Arrow | Move Up |
+| ⬇️ Down Arrow | Move Down |
+| ⬅️ Left Arrow | Move Left |
+| ➡️ Right Arrow | Move Right |
+
+## 🛠️ Technologies Used
 
 - Python
 - Pygame
 
-## Installation
+## 📦 Installation
 
-1. Clone this repository:
+**1. Clone the repository**
 
-   ```bash
-   git clone YOUR_REPOSITORY_URL
-   ```
+```bash
+git clone https://github.com/reyanshbansal2903-wq/Snake_Game.git
+```
 
-2. Navigate into the project folder:
+**2. Navigate to the project folder**
 
-   ```bash
-   cd My-Pygame-Project
-   ```
+```bash
+cd Snake_Game
+```
 
-3. Install the dependencies:
+**3. Install the dependencies**
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+```bash
+pip install -r requirements.txt
+```
 
-## How to Run
+## 🚀 How to Run
 
-Run the following command:
+Start the game using:
 
 ```bash
 python main.py
 ```
 
-## Project Structure
+## 📁 Project Structure
 
 ```text
-My-Pygame-Project/
+Snake_Game/
+│
 ├── main.py
 ├── assets/
 │   ├── images/
 │   └── sounds/
+│
 ├── requirements.txt
 ├── README.md
 └── .gitignore
 ```
 
-## Author
+## 🎯 Objective
 
-Created by Reyansh.
+Eat as much food as possible, grow your snake, and achieve the highest score!
+
+## 👨‍💻 Author
+
+**Reyansh Bansal**
+
+---
+
+⭐ If you like this project, consider giving it a star on GitHub!
